@@ -1,5 +1,6 @@
 ---
 const today = new Date();
+import { Icon } from '@astrojs/starlight/components';
 ---
 
 <footer>
@@ -13,6 +14,7 @@ const today = new Date();
 				width="32"
 				height="32"
 				astro-icon="social/facebook"
+<Icon name="facebook"  size="2rem" />
 				><path
 					fill="currentColor"
 					d="M279.14 288l14.22-92.66h-88.91V129.09c0-25.35 12.42-50.06 52.24-50.06H296V6.26S259.5 0 225.36 0C149.3 0 100.2 44.38 100.2 124.72V195.3H12v92.7h88.2V512h107.05V288z"
@@ -21,6 +23,7 @@ const today = new Date();
 		</a>
 		<a href="https://www.youtube.com/@BenSwincicki" target="_blank">
 			<span class="sr-only">Follow Astro on YouTube</span>
+<Icon name="youtube" color="goldenrod" size="2rem" />
 			<svg
 				viewBox="0 0 16 16"
 				aria-hidden="true"
